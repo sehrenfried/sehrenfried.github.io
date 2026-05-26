@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehrenfried Digital — Individuelle Softwarelösungen</title>
+    <meta name="description" content="Ehrenfried Digital — Individuelle Softwarelösungen.">
+    <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="background-glow"></div>
+
+    <main class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.svg" alt="Ehrenfried Digital" class="logo-img">
+            </div>
+        </header>
+
+        <section class="hero">
+            <span class="eyebrow">Ehrenfried Digital</span>
+            <h1 class="headline">Individuelle Softwarelösungen.</h1>
+            <p class="subline">Für digitale Produkte und interaktive Erlebnisse.</p>
+        </section>
+
+        <section class="contact" id="kontakt">
+            <h2 class="contact-headline">Lassen Sie uns sprechen.</h2>
+            <div class="contact-grid">
+                <a class="contact-card" href="mailto:info@ehrenfried-digital.de">
+                    <span class="contact-label">E-Mail</span>
+                    <span class="contact-value">info@ehrenfried-digital.de</span>
+                </a>
+                <a class="contact-card" href="tel:+4962916476363">
+                    <span class="contact-label">Telefon</span>
+                    <span class="contact-value">06291 6476363</span>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <span>© <span id="year"></span> Ehrenfried Digital</span>
+            <span class="footer-divider">·</span>
+            <a href="impressum.html" class="footer-link">Impressum</a>
+            <span class="footer-divider">·</span>
+            <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum — Ehrenfried Digital</title>
+    <meta name="description" content="Impressum von Ehrenfried Digital nach § 5 TMG.">
+    <meta name="robots" content="index, follow">
+    <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="background-glow"></div>
+
+    <main class="container">
+        <header class="header">
+            <a href="index.html" class="logo" aria-label="Zur Startseite">
+                <img src="logo.svg" alt="Ehrenfried Digital" class="logo-img">
+            </a>
+            <a href="index.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                <span>Zurück</span>
+            </a>
+        </header>
+
+        <article class="legal-page">
+            <h1 class="legal-title">Impressum</h1>
+
+            <section class="legal-section">
+                <h2>Angaben gemäß § 5 TMG</h2>
+                <p>
+                    Sebastian Ehrenfried<br>
+                    Alemannenstr. 23<br>
+                    74706 Osterburken<br>
+                    Deutschland
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Kontakt</h2>
+                <p>
+                    Telefon: <a href="tel:+4962916476363">06291 6476363</a><br>
+                    E-Mail: <a href="mailto:mail@ehrenfried-digital.de">mail@ehrenfried-digital.de</a>
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Umsatzsteuer</h2>
+                <p>
+                    Es wird keine Umsatzsteuer gemäß § 19 UStG (Kleinunternehmerregelung) berechnet.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+                <p>
+                    Sebastian Ehrenfried<br>
+                    Alemannenstr. 23<br>
+                    74706 Osterburken
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Streitbeilegung</h2>
+                <p>
+                    Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer
+                    Verbraucherschlichtungsstelle teilzunehmen (§ 36 VSBG).
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Haftung für Inhalte</h2>
+                <p>
+                    Als Diensteanbieter bin ich gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den
+                    allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich als Diensteanbieter jedoch
+                    nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach
+                    Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur
+                    Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben
+                    hiervon unberührt.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Haftung für Links</h2>
+                <p>
+                    Diese Seite enthält keine Links zu externen Webseiten Dritter, auf deren Inhalte ich keinen
+                    Einfluss habe. Sollten zukünftig Links eingefügt werden, kann für diese fremden Inhalte keine
+                    Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige
+                    Anbieter oder Betreiber der Seiten verantwortlich.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2>Urheberrecht</h2>
+                <p>
+                    Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
+                    deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
+                    Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung
+                    des jeweiligen Autors bzw. Erstellers.
+                </p>
+            </section>
+        </article>
+
+        <footer class="footer">
+            <span>© <span id="year"></span> Ehrenfried Digital</span>
+            <span class="footer-divider">·</span>
+            <a href="impressum.html" class="footer-link" aria-current="page">Impressum</a>
+            <span class="footer-divider">·</span>
+            <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
